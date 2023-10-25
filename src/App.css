@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.square {
+  width: 30px;
+  height: 30px;
 }
+
+.status{
+  margin: 10px 10px 10px 30px;
+}
+
+.board-row{
+  margin-left: 10px;
+}
+
+.board-row:after{
+  clear: both;
+}
+
+.toggle-container {
+  margin: 10px;
+}
+
+.toggle-btn {
+  padding: 5px;
+}
+
+/* .highlight {
+  background-color: yellow;
+} */
